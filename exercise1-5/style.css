@@ -1,0 +1,94 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 90%;
+  padding: 20px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header.heading {
+  font-size: 32px;
+}
+
+.nav-list {
+  text-align: center;
+padding: 15px 0;
+margin: 0 auto;
+border-top: 1px solid #848282;
+border-bottom: 1px solid #848282;
+}
+
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+/* メイン */
+.main {
+  width: 800px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main>div {
+  width: 200px;
+  height: 200px;
+}
+
+.color1 {
+  background-color: #e6ffe9;
+}
+.color2 {
+  background-color: #cbffd3;
+}
+.color3 {
+  background-color: #aeffbd;
+}
+.color4 {
+  background-color: #93ffab;
+}
+.color5 {
+  background-color: #f3ffd8;
+}
+.color6 {
+  background-color: #edffbe;
+}
+.color7 {
+  background-color: #e9ffa5;
+}
+.color8 {
+  background-color: #e4ff8d;
+}
+.color9 {
+  background-color: #d9e5ff;
+}
+.color10 {
+  background-color: #bad3ff;
+}
+.color11 {
+  background-color: #a4c6ff;
+}
+.color12 {
+  background-color: #8eb8ff;
+}
+
+/* footer */
+footer {
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  line-height: 120px;
+  background-color: #848282;
+}
+
+.footer-text {
+  color: #fff;
+}
