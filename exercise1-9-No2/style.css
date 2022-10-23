@@ -2,5 +2,69 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #6c6b6b;
+}
+
+/***** header *****/
+header {
+  height: 50px;
+  background-color: #FF9A4B;
+}
+
+/****** main ******/
+main {
+  width: 960px;
+  margin: 50px auto;
+  display: flex;
+}
+
+.step {
+  width: 300px;
+  padding: 10px;
+  margin-right: 30px;
+  position: relative;
+  background-color: #EEEEEE;
+}
+
+.step:last-child {
+  margin-right: : 0;
+}
+
+.number {
+  padding: 3px 0;
+  color: #fff;
+  background-color: #FF9A4B;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.step-image1 {
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.step-image2 {
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.step-image3 {
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.title {
+  margin: 15px 0 5px 0;
+}
+
+/***** footer ******/
+footer {
+  height: 50px;
+  background-color: #AAAAAA;
 }
